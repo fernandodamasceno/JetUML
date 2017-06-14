@@ -1,0 +1,10 @@
+To do
+
+1 - Criar item de menu na tela inicial
+2 - Criar item no menu bar 
+3 - Criar um Frame para o diagrama de implantação
+4 - Ferramenta: selecionar
+5 - Ferramenta: instancia de nodo (com nome na parte suerior)
+6 - Ferramenta: instancia de componente (com nome no meio)
+7 - Ferramenta: dependencia pontilhada com uma seta e nome editavel 
+8 - Ferramenta: dependencia simples (somente um traco entre os componentes do mesmo nodo)

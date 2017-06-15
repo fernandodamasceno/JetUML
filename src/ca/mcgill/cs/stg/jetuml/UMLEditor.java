@@ -75,6 +75,7 @@ public final class UMLEditor
 				frame.addGraphType("state_diagram", StateDiagramGraph.class);
 			    frame.addGraphType("object_diagram", ObjectDiagramGraph.class);
 			    frame.addGraphType("usecase_diagram", UseCaseDiagramGraph.class);
+			    frame.addGraphType("deployment_diagram", null);
 				frame.setVisible(true);
 				frame.readArgs(arguments);
 				frame.addWelcomeTab();

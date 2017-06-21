@@ -183,13 +183,13 @@ public class DeploymentDiagramGraph extends Graph
 	@Override
 	public String getFileExtension() 
 	{
-		return ResourceBundle.getBundle("ca.mcgill.cs.stg.jetuml.UMLEditorStrings").getString("object.extension");
+		return ResourceBundle.getBundle("ca.mcgill.cs.stg.jetuml.UMLEditorStrings").getString("deployment_diagram.extension");
 	}
 
 	@Override
 	public String getDescription() 
 	{
-		return ResourceBundle.getBundle("ca.mcgill.cs.stg.jetuml.UMLEditorStrings").getString("object.name");
+		return ResourceBundle.getBundle("ca.mcgill.cs.stg.jetuml.UMLEditorStrings").getString("deployment_diagram.name");
 	}
 }
 

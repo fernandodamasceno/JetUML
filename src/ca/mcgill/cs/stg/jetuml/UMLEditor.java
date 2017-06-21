@@ -30,6 +30,7 @@ import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.UnsupportedLookAndFeelException;
 
 import ca.mcgill.cs.stg.jetuml.diagrams.ClassDiagramGraph;
+import ca.mcgill.cs.stg.jetuml.diagrams.DeploymentDiagramGraph;
 import ca.mcgill.cs.stg.jetuml.diagrams.ObjectDiagramGraph;
 import ca.mcgill.cs.stg.jetuml.diagrams.SequenceDiagramGraph;
 import ca.mcgill.cs.stg.jetuml.diagrams.StateDiagramGraph;
@@ -45,6 +46,7 @@ public final class UMLEditor
 	private static final int JAVA_MINOR_VERSION = 0;
 	
 	private UMLEditor() {}
+	//teste
 	
 	/**
 	 * @param pArgs Each argument is a file to open upon launch.
@@ -75,7 +77,7 @@ public final class UMLEditor
 				frame.addGraphType("state_diagram", StateDiagramGraph.class);
 			    frame.addGraphType("object_diagram", ObjectDiagramGraph.class);
 			    frame.addGraphType("usecase_diagram", UseCaseDiagramGraph.class);
-			    frame.addGraphType("deployment_diagram", null);
+			    frame.addGraphType("deployment_diagram", DeploymentDiagramGraph.class);
 				frame.setVisible(true);
 				frame.readArgs(arguments);
 				frame.addWelcomeTab();

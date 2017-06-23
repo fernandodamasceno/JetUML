@@ -691,7 +691,9 @@ public class EditorFrame extends JFrame
    			new ExtensionFilter(aAppResources.getString("usecase.name"), 
    						aAppResources.getString("usecase.extension") + aAppResources.getString("files.extension")),
    			new ExtensionFilter(aAppResources.getString("sequence.name"), 
-   						aAppResources.getString("sequence.extension") + aAppResources.getString("files.extension"))
+   						aAppResources.getString("sequence.extension") + aAppResources.getString("files.extension")),
+   			new ExtensionFilter(aAppResources.getString("deployment.name"), 
+						aAppResources.getString("deployment.extension") + aAppResources.getString("files.extension"))
    		};
    		for(ExtensionFilter filter: filters)
 		{

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_73" class="java.beans.XMLDecoder">
+ <object class="ca.mcgill.cs.stg.jetuml.diagrams.ObjectDiagramGraph">
+  <void method="restoreRootNode">
+   <object class="ca.mcgill.cs.stg.jetuml.graph.NoteNode" id="NoteNode0">
+    <void id="Rectangle2D$Double0" property="bounds">
+     <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Rectangle2D$Double0"/>
+       <double>540.0</double>
+      </void>
+     </void>
+     <void class="java.awt.geom.Rectangle2D$Double" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Rectangle2D$Double0"/>
+       <double>200.0</double>
+      </void>
+     </void>
+    </void>
+    <void property="bounds">
+     <object idref="Rectangle2D$Double0"/>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

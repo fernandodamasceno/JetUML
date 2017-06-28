@@ -45,7 +45,7 @@ public final class UMLEditor
 	private static final int JAVA_MAJOR_VERSION = 7;
 	private static final int JAVA_MINOR_VERSION = 0;
 	
-	private UMLEditor() {}
+	public UMLEditor() {}
 	//teste
 	
 	/**
